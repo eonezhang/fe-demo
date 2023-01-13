@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx semantic-release"
+    "release": "semantic-release --no-ci"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eonezhang/fe-demo.git"
+    "url": "git@github.com:eonezhang/fe-demo.git"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,9 @@
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/gitlab": "^9.5.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "semantic-release": "^20.0.2"
   }
 }
