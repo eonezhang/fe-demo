@@ -22,7 +22,7 @@
             "release": "minor"
           },
           {
-            "type": "break change",
+            "type": "breakchange",
             "release": "major"
           },
           {
