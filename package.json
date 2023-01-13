@@ -1,0 +1,27 @@
+{
+  "name": "fe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eonezhang/fe-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eonezhang/fe-demo/issues"
+  },
+  "homepage": "https://github.com/eonezhang/fe-demo#readme",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^9.5.1",
+    "semantic-release": "^20.0.2"
+  }
+}
